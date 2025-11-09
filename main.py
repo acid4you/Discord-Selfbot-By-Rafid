@@ -561,6 +561,7 @@ async def dick(ctx):
 
 #running the selfbot
 if __name__ == "__main__":
-    client.run(os.getenv('TOKEN'), bot=False)
+    client.run(os.getenv('TOKEN')) #, bot=False when u using self user token
+
 
     
